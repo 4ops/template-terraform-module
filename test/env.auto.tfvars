@@ -1,0 +1,2 @@
+name = "mymodule"
+env  = "dev"
