@@ -1,3 +1,3 @@
 output id {
-  value = module.mymodule.name
+  value = module.mymodule.id
 }

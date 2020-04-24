@@ -1,2 +1,0 @@
-name = "mymodule"
-env  = "dev"

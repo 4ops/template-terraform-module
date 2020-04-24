@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 0.12.19"
+  required_version = ">= 0.12"
 }
 
 # --- Main
@@ -7,5 +7,5 @@ terraform {
 module mymodule {
   source = "../"
   name   = var.name
-  env    = var.env
+  tags   = var.tags
 }

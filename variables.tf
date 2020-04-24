@@ -1,14 +1,11 @@
-# --- Common settings
-
 variable name {
-  type    = string
-  default = "mymodule"
-
+  type        = string
+  default     = "mymodule"
   description = "Module name override"
 }
 
-variable env {
-  type = string
-
-  description = "Required: environment name"
+variable tags {
+  type        = map
+  default     = {}
+  description = "Common tags"
 }
